@@ -1,0 +1,76 @@
+{
+  "_from": "rtc-bufferedchannel",
+  "_id": "rtc-bufferedchannel@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha1-heVuHk0sHqdSrLcbJY2Se4RwL4A=",
+  "_location": "/rtc-bufferedchannel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rtc-bufferedchannel",
+    "name": "rtc-bufferedchannel",
+    "escapedName": "rtc-bufferedchannel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rtc-bufferedchannel/-/rtc-bufferedchannel-0.5.0.tgz",
+  "_shasum": "85e56e1e4d2c1ea752acb71b258d927b84702f80",
+  "_spec": "rtc-bufferedchannel",
+  "_where": "/home/nhim/WORKS/HLSJSP2P",
+  "author": {
+    "name": "Damon Oehlman",
+    "email": "damon.oehlman@nicta.com.au"
+  },
+  "bugs": {
+    "url": "https://github.com/rtc-io/rtc-bufferedchannel/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Damon Oehlman",
+      "email": "damon.oehlman@nicta.com.au",
+      "url": "https://github.com/DamonOehlman"
+    },
+    {
+      "name": "Silvia Pfeiffer",
+      "email": "silvia.pfeiffer@nicta.com.au",
+      "url": "https://github.com/silviapfeiffer"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Wraps a core browser RTCDataChannel with a buffering layer to ensure data channel send limits are observed",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "peerpair": "~0.4.0",
+    "rtc-media": "~1.5.4",
+    "rtc-quickconnect": "~0.12.0",
+    "rtc-videoproc": "~0.11.0",
+    "tape": "~2.5.0",
+    "zuul": "~1.5.2"
+  },
+  "homepage": "https://github.com/rtc-io/rtc-bufferedchannel",
+  "keywords": [
+    "webrtc",
+    "rtc.io",
+    "data"
+  ],
+  "license": "Apache 2.0",
+  "main": "index.js",
+  "name": "rtc-bufferedchannel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rtc-io/rtc-bufferedchannel.git"
+  },
+  "scripts": {
+    "gendocs": "gendocs > README.md",
+    "test": "$(npm bin)/zuul -- test/all.js"
+  },
+  "version": "0.5.0"
+}

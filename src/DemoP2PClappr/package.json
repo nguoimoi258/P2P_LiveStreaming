@@ -1,0 +1,14 @@
+{
+  "name": "demop2pclappr",
+  "version": "1.0.0",
+  "description": "```sh $ cd P2PPlugin $ npm install # install dependences $ webpack  ``` Bundle file is stored in dist folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
